@@ -1,14 +1,12 @@
-This is a responsive Quiz Application built using React and Tailwind CSS. The app presents multiple-choice questions based on web development topics such as HTML, CSS, JavaScript, and React. It features a clean and modern user interface, real-time score tracking, and a simple navigation flow between questions. The project demonstrates core React concepts like components, state management, conditional rendering, and event handling, along with utility-first styling using Tailwind CSS.
+# React + Vite
 
-**Key Features **
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-1)Built using React functional components.
-2)Styled with Tailwind CSS for a modern and responsive design.
-3)Displays multiple-choice questions one at a time.
-4)Real-time score tracking based on user answers.
-5)Conditional rendering for quiz and result screens.
-6)Restart quiz functionality after completion.
-7)Clean and beginner-friendly project structure.
-8)Covers HTML, CSS, JavaScript, and React topics.
-9)Fully responsive layout for desktop and mobile.
-10)Demonstrates state management using React hooks.
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
